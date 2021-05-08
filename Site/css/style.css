@@ -1,0 +1,311 @@
+
+body {
+		background: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+		font-weight: 300;
+    overflow-x: hidden;
+}
+
+/*---------------------------------------
+   Tableau software         
+-----------------------------------------*/
+
+#viz1620376030762 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#viz1620374387836 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#viz1620378124864 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*---------------------------------------
+   TIPOGRAPHIE           
+-----------------------------------------*/
+
+h1,h2,h3,h4 {
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+    font-size: 62px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 46px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  color: #666;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+p {
+    color: #777;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.btn-success:focus {
+  background-color: #000;
+  border-color: transparent;
+}
+
+
+html{
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #4d638c;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none !important;
+}
+a:hover, a:active, a:focus {
+  color: #4d638c;
+  outline: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/*---------------------------------------
+    HEADER             
+-----------------------------------------*/
+
+.navbar-default {
+    background: #ffffff;
+    padding: 18px 0;
+    border: none;
+    margin-top: 62px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #333;
+    background-color: transparent;
+}
+
+/*---------------------------------------
+    INTRODUCTION   
+-----------------------------------------*/
+
+#home {
+    background-size: cover;
+    background-position: center center;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+     align-items: center;
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#home hr {
+  width: 82px;
+  margin-top: 32px;
+}
+
+
+/*---------------------------------------
+   SECTION             
+-----------------------------------------*/
+
+#about .text-center {
+  padding-bottom: 42px;
+}
+
+#about .col-md-8 {
+  padding-left: 0px;
+}
+
+#about .col-md-8 img {
+  padding-right: 22px;
+  padding-bottom: 22px;
+}
+
+#about hr {
+  width: 100px;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+#about ul {
+  padding-left: 22px;
+}
+
+#about ul li {
+  color: #777;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+
+
+/*---------------------------------------
+   CATEGORIE MENU              
+-----------------------------------------*/
+
+#menu small {
+  color: #f0f0f0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#menu .menu-thumb {
+  position: relative;
+  padding: 0;
+  margin-top: 32px;
+}
+
+#menu .menu-thumb .menu-overlay {
+  position: absolute;
+  background: #222;
+  color: #ffffff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: top;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+#menu .menu-item {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    -webkit-transform:translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%);
+          transform:translate(-50%,-50%);
+}
+
+#menu .menu-thumb:hover .menu-overlay {
+  opacity: 0.9;
+}
+
+#menu .text-center {
+  padding-top: 62px;
+}
+
+
+/*---------------------------------------
+   FOOTER              
+-----------------------------------------*/
+
+footer {
+    border-top: 1px solid #f0f0f0;
+    padding: 100px 0px;
+    position: relative;
+}
+
+footer .col-md-3 .fa {
+  font-size: 42px;
+}
+
+footer a {
+  color: #555;
+}
+
+footer hr {
+  border-color: #ffffff;
+  margin-top: 42px;
+  margin-bottom: 22px;
+}
+
+footer .footer-copyright {
+  padding-top: 16px;
+}
+
+
+/*---------------------------------------
+   RESPONSIVE         
+-----------------------------------------*/
+
+
+@media (max-width: 767px) {
+
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .section-title h2 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .navbar-default {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer .col-md-4 {
+    padding-top: 42px;
+  }
+
+}
+
