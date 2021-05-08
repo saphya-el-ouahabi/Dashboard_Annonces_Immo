@@ -1,5 +1,5 @@
 # Dashboard_Annonces_Immo
-projet en collaboration avec @Elsa-R
+projet réalisé en collaboration avec @Elsa-R
 
 Le but de ce projet était de concevoir une visualisation de données concernant des annonces immobilières. Nous avons réalisé un dataset de l'ensemble des annonces immobilières de France. Pour ce faire, nous nous sommes basées sur Logic-immo, qui est un site immobilier et petites annonces immobilières. 
 
